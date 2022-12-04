@@ -1,0 +1,31 @@
+Primitive Data Types
+    - number
+    - bigint
+    - boolean
+    - undefined
+    - object (null also shows up here)
+    - string
+    
+Variables
+    - var (apparently very dangerous) (global scope)
+    - const (value can't be changed) (local scope)
+    - let (local scope)
+    
+    var vs let: if you declare a let in a certain code block, then if you try to use the let outside of that code block, it will throw an error. 
+    But with var, it can be used anywhere in the code. It declares variable 
+    This can lead to memory leaks.
+    
+    
+For Loops
+Not really used in production anymore. This is covered just because we have to.
+
+Compound Data Types
+    - array (typeof results in object)
+    - json
+    
+    to check if something is an array: 
+        -check if it has length
+        -Array.isArray(arr)
+        
+        
+Map, Filter
